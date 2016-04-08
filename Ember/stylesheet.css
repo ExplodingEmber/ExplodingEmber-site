@@ -4,7 +4,15 @@ p{
 	font-family: Arial;
 }	
 
+.container{
+	min-height: 100%;
+	width:80%; 
+	margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
 
+/* Navigation */
 .navbar{
 	font-size: 25px;
     font-size: 2.5vw;
@@ -20,13 +28,7 @@ p{
 	width: 17%;
 	display: inline-block;
 }
-.container{
-	min-height: 100%;
-	width:80%; 
-	margin-right: auto;
-    margin-left: auto;
-    background-color: white;
-}
+/* Featured content carousel */
 .main-video-box{
 	position:relative;
 	padding-bottom:28.125%;
@@ -50,6 +52,7 @@ p{
 	margin-right: auto;
     margin-left: auto;
 }
+/* All videos carousel */
 .video-container{
 	width: 100%;
 	margin-right: auto;
