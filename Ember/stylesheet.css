@@ -11,6 +11,9 @@ p{
     margin-left: auto;
     background-color: white;
 }
+.center-content{
+  top: 20%;
+}
 
 /* Navigation */
 .navbar{
@@ -29,6 +32,9 @@ p{
 	display: inline-block;
 }
 /* Featured content carousel */
+.featured-content-container{
+	height: 1000px;
+}
 .main-video-box{
 	position:relative;
 	padding-bottom:28.125%;
@@ -51,6 +57,8 @@ p{
 	border:1px solid black;
 	margin-right: auto;
     margin-left: auto;
+    position: relative;
+    top: 200px;
 }
 /* All videos carousel */
 .video-container{
