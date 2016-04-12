@@ -1,10 +1,20 @@
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">	
+	<link rel="stylesheet" type="text/css" href="css/unslider.css">	
+	<link rel="stylesheet" type="text/css" href="css/unslider-dots.css">
 	<title>new page</title>
-	<script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="http://stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
+	<script src="http://stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+	<script src="js/unslider-min.js">
 	</script>
+	 <script>
+	  jQuery(document).ready(function($) {
+	   $('.slider').unslider('initSwipe',{
+	   	infinite: true, 
+	   });
+	  });</script>
 </head>
 <body style="background-color: grey; width: 100%;">
 	<div class="container">
@@ -25,61 +35,77 @@
 			</div>
 		</div>
 		<div>
-			<div class="main-video-box">
-				<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="main-video-description">
-				<h3></h3>
-				<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
-			</div>
-		</div>
-		<div class="video-container" style="padding-left: 1%;">
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
-			</div>
-			<div class="video-box">
-				<img src="video.jpg" style="height: auto; width: 100%;">
+			<div class="slider">
+				<ul>
+					<li>
+						<div class="main-video-box">
+							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="main-video-description">
+							<h3></h3>
+							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
+						</div>
+					</li>
+					<li>
+						<div class="main-video-box">
+							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="main-video-description">
+							<h3></h3>
+							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
-	</div>
+			<div class="slider">
+				<ul>
+					<li>
+						<div class="video-container" style="padding-left: 1%;">
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="video-container" style="padding-left: 1%;">
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+							<div class="video-box">
+								<img src="video.jpg" style="height: auto; width: 100%;">
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 </body>
 </html>
