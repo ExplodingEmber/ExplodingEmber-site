@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: titleFont;
-    src: url('fonts/badab.ttf');
+    src: url('fonts/badab.TTF');
 }
 
 p{
@@ -10,11 +10,11 @@ p{
 }	
 
 .header{
-	height: 250px;
-	width: 100%;
-	background-color: black;
+	background-image: url("http://www.explodingember.co.uk/Ember/images/headerimage.jpg");
+	        width: 100%;
+            height: auto;
+            background-size: 100% auto !important;
 }
-
 
 /* NAVIGATION */
 
@@ -38,11 +38,10 @@ p{
 /* FEATURED VIDEOS */
 
 .container{
-	min-height: 100%;
 	width:80%; 
 	margin-right: auto;
     margin-left: auto;
-    background-color: RED;
+    background-color: white;
 }
 .main-video-box{
 	position:relative;
@@ -62,10 +61,24 @@ p{
 }
 .main-video-description{
 	height: auto;
-	width: 90%;
+	width: 80%;
 	margin-top: 5px;
 	margin-right: auto;
     margin-left: auto;
+}
+.main-video-description h3{
+	font-size: 25px;
+	text-align: center;
+	font-family: arial;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.main-video-description p{
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 10px;
+	text-align: center;
 }
 
 /* ALL VIDEOS */
@@ -74,7 +87,6 @@ p{
 	width: 100%;
 	margin-right: auto;
     margin-left: auto;
-	background-color: YELLOW;
 	text-align:center;
 }
 .video-box{
@@ -95,13 +107,30 @@ p{
 	font-size: 50px;
 	letter-spacing: 2px;
 	text-align: center;
-	text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
- 	-moz-text-shadow: 0 0 2px #000;
-    -webkit-text-shadow: 0 0 2px #000;
-    color: white;
+    color: black;
 }
 
+.unslider:nth-of-type(3) .navigation-left{
+	position: relative;
+	top:-224px;
+}
+.unslider:nth-of-type(3) .navigation-right{
+	position: relative;
+	top:-224px;
+	float:right
+}
 
+.unslider:nth-of-type(5) .navigation-left{
+	position: relative;
+	top: -133px;
+	left:0px;
+}
+.unslider:nth-of-type(5) .navigation-right{
+	position: relative;
+	top: -133px;
+	right:0px;
+	float:right
+}
 
 
 

@@ -11,14 +11,17 @@
 	</script>
 	 <script>
 	  jQuery(document).ready(function($) {
-	   $('.slider').unslider({
+	   $('.slider, .slidervideos').unslider({
+	   	nav: false,
 	   	infinite: true,
+	   	arrows: {next: '<img class="navigation-right" src="./images/right-arrow.png" />', prev: '<img class="navigation-left" src="./images/left-arrow.png" />' }
 	   }).initSwipe();
 	  });</script>
 </head>
 <body style="background-color: grey; width: 100%;">
 	<div class="container">
 		<div class="header">
+			<img style="width: 100%;" src="http://www.explodingember.co.uk/Ember/images/headerimage.jpg"/>
 		</div>
 			<div class="dividerContainer">
 				<h1>Featured Content</h1>
@@ -26,26 +29,41 @@
 			<div class="slider">
 				<ul>
 					<li>
+						<div class="main-video-description">												<h3>QnA Vlog</h3>
+						</div>
 						<div class="main-video-box">
 							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
 						</div>
 						<div class="main-video-description">
-							<h3>QnA Vlog</h3>
 							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
 						</div>
 					</li>
 					<li>
+						<div class="main-video-description">												<h3>QnA Vlog</h3>
+						</div>
 						<div class="main-video-box">
 							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
 						</div>
 						<div class="main-video-description">
-							<h3></h3>
+							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
+						</div>
+					</li>
+					<li>
+						<div class="main-video-description">												<h3>QnA Vlog</h3>
+						</div>
+						<div class="main-video-box">
+							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="main-video-description">
 							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
 						</div>
 					</li>
 				</ul>
 			</div>
-			<div class="slider">
+			<div class="dividerContainer">
+				<h1>Videos</h1>
+			</div>
+			<div class="slidervideos">
 				<ul>
 					<li>
 						<div class="video-container" >
