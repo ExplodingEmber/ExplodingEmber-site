@@ -50,8 +50,8 @@ p{
 }
 .main-video-description{
 	height: auto;
-	width: 40%;
-	border:1px solid black;
+	width: 90%;
+	margin-top: 5px;
 	margin-right: auto;
     margin-left: auto;
 }
@@ -60,6 +60,7 @@ p{
 	margin-right: auto;
     margin-left: auto;
 	background-color: YELLOW;
+	text-align:center;
 }
 .video-box{
 	height: auto;
