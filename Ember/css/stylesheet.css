@@ -1,4 +1,9 @@
 
+@font-face{
+    font-family: titleFont;
+    src: url('fonts/badab.ttf');
+}
+
 p{
 	font-size: 15px;
 	font-family: Arial;
@@ -7,7 +12,11 @@ p{
 .header{
 	height: 250px;
 	width: 100%;
+	background-color: black;
 }
+
+
+/* NAVIGATION */
 
 .navbar{
 	font-size: 25px;
@@ -25,6 +34,9 @@ p{
 	width: 17%;
 	display: inline-block;
 }
+
+/* FEATURED VIDEOS */
+
 .container{
 	min-height: 100%;
 	width:80%; 
@@ -55,6 +67,9 @@ p{
 	margin-right: auto;
     margin-left: auto;
 }
+
+/* ALL VIDEOS */
+
 .video-container{
 	width: 100%;
 	margin-right: auto;
@@ -69,7 +84,22 @@ p{
 	display: inline-block;
 }
 
+/* HEADERS */
+.dividerContainer{
+	margin-top:15px;
+	margin-bottom:15px;
+}
 
+.dividerContainer h1{
+	font-family: titleFont;
+	font-size: 50px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+ 	-moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+    color: white;
+}
 
 
 
