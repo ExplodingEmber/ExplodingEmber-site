@@ -1,22 +1,23 @@
 
+@font-face{
+    font-family: titleFont;
+    src: url('fonts/badab.TTF');
+}
+
 p{
 	font-size: 15px;
 	font-family: Arial;
 }	
 
-.container{
-	min-height: 100%;
-	width:80%; 
-	margin-right: auto;
-    margin-left: auto;
-    background-color: yellow;
-	
-}
-.center-content{
-  top: 20%;
+.header{
+	background-image: url("http://www.explodingember.co.uk/Ember/images/headerimage.jpg");
+	        width: 100%;
+            height: auto;
+            background-size: 100% auto !important;
 }
 
-/* Navigation */
+/* NAVIGATION */
+
 .navbar{
 	font-size: 25px;
     font-size: 2.5vw;
@@ -26,16 +27,21 @@ p{
 	text-align: center;
 	width: 100%;
 	padding-bottom:10px;
+	background-color: BLUE;
 }
 .navbox{
 	margin-top: 5px;
 	width: 17%;
 	display: inline-block;
 }
-/* Featured content carousel */
-.featured-content-container{
-	height: 1000px;
-	background-color: RED;
+
+/* FEATURED VIDEOS */
+
+.container{
+	width:80%; 
+	margin-right: auto;
+    margin-left: auto;
+    background-color: white;
 }
 .main-video-box{
 	position:relative;
@@ -55,20 +61,33 @@ p{
 }
 .main-video-description{
 	height: auto;
-	width: 40%;
-	border:1px solid black;
+	width: 80%;
+	margin-top: 5px;
 	margin-right: auto;
     margin-left: auto;
-    position: relative;
-    top: 200px;
 }
-/* All videos carousel */
+.main-video-description h3{
+	font-size: 25px;
+	text-align: center;
+	font-family: arial;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.main-video-description p{
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* ALL VIDEOS */
+
 .video-container{
 	width: 100%;
 	margin-right: auto;
     margin-left: auto;
-	background-color:BLUE;
-
+	text-align:center;
 }
 .video-box{
 	height: auto;
@@ -77,9 +96,41 @@ p{
 	display: inline-block;
 }
 
+/* HEADERS */
+.dividerContainer{
+	margin-top:15px;
+	margin-bottom:15px;
+}
 
+.dividerContainer h1{
+	font-family: titleFont;
+	font-size: 50px;
+	letter-spacing: 2px;
+	text-align: center;
+    color: black;
+}
 
+.unslider:nth-of-type(3) .navigation-left{
+	position: relative;
+	top:-224px;
+}
+.unslider:nth-of-type(3) .navigation-right{
+	position: relative;
+	top:-224px;
+	float:right
+}
 
+.unslider:nth-of-type(5) .navigation-left{
+	position: relative;
+	top: -133px;
+	left:0px;
+}
+.unslider:nth-of-type(5) .navigation-right{
+	position: relative;
+	top: -133px;
+	right:0px;
+	float:right
+}
 
 
 
