@@ -132,6 +132,23 @@ p{
 	float:right
 }
 
+.footer{
+    width: 100%;
+    text-align: center;
+}
+.footer-object{
+	width:15%;
+	height:10%;
+    display: inline-block;
+    background-color: aqua;
+    margin-bottom: 35px;
+    margin-right: 2%;
+}
+.footer-content{
+	width:15%;
+	height:auto;
+	color: red;
+}
 
 
 
