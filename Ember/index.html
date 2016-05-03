@@ -2,12 +2,14 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">	
 	<link rel="stylesheet" type="text/css" href="css/unslider.css">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">	
 	<link rel="stylesheet" type="text/css" href="css/unslider-dots.css">
 	<title>new page</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 	<script src="http://stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
 	<script src="http://stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
-	<script src="js/unslider-min.js">
+	<script src="js/unslider-min.js"></script>
+	<script src="js/bootstrap.js"></script>
 	</script>
 	 <script>
 	  jQuery(document).ready(function($) {
@@ -26,10 +28,14 @@
 			<div class="dividerContainer">
 				<h1>Featured Content</h1>
 			</div>
-			<div class="slider">
-				<ul>
-					<li>
-						<div class="main-video-description">												<h3>QnA Vlog</h3>
+			<!-- Start of Carousel -->
+			<div id="featuredContent" class="carousel slide" data-ride="carousel">
+
+			  	<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				<!-- Slide 1 -->				
+					<div class="item active">
+						<div class="main-video-description"><h3>QnA Vlog</h3>
 						</div>
 						<div class="main-video-box">
 							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
@@ -37,9 +43,12 @@
 						<div class="main-video-description">
 							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
 						</div>
-					</li>
-					<li>
-						<div class="main-video-description">												<h3>QnA Vlog</h3>
+						<div class="carousel-caption">
+						</div>
+					</div>
+				<!-- Slide 2 -->
+					<div class="item">
+						<div class="main-video-description"><h3>QnA Vlog</h3>
 						</div>
 						<div class="main-video-box">
 							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
@@ -47,25 +56,32 @@
 						<div class="main-video-description">
 							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
 						</div>
-					</li>
-					<li>
-						<div class="main-video-description">												<h3>QnA Vlog</h3>
+						<div class="carousel-caption">
 						</div>
-						<div class="main-video-box">
-							<iframe class="video-iframe" src="https://www.youtube.com/embed/lU83lA0IEEQ" frameborder="0" allowfullscreen></iframe>
-						</div>
-						<div class="main-video-description">
-							<p>Today we're answering questions that you guys gave us, don't forget to leave a comment below with a question for ExplodingEmber to answer in his next QnA in 2 weeks! You may also get a shout out! Stay awesome</p>
-						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
+
+			  <!-- Carousel Controls -->
+				<a class="left carousel-control" href="#featuredContent" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#featuredContent" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
+
 			<div class="dividerContainer">
 				<h1>Videos</h1>
 			</div>
-			<div class="slidervideos">
-				<ul>
-					<li>
+			<!-- Start of Carousel -->
+			<div id="videoCarousel" class="carousel slide" data-ride="carousel">
+
+			  	<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				<!-- Slide 1 -->				
+					<div class="item active">
 						<div class="video-container" >
 							<div class="video-box">
 								<img src="video.jpg" style="height: auto; width: 100%;">
@@ -86,9 +102,10 @@
 								<img src="video.jpg" style="height: auto; width: 100%;">
 							</div>
 						</div>
-					</li>
-					<li>
-						<div class="video-container">
+					</div>
+				<!-- Slide 2 -->
+					<div class="item">
+						<div class="video-container" >
 							<div class="video-box">
 								<img src="video.jpg" style="height: auto; width: 100%;">
 							</div>
@@ -108,9 +125,10 @@
 								<img src="video.jpg" style="height: auto; width: 100%;">
 							</div>
 						</div>
-					</li>
-					<li>
-						<div class="video-container">
+					</div>
+				<!-- Slide 3 -->
+					<div class="item">
+						<div class="video-container" >
 							<div class="video-box">
 								<img src="video.jpg" style="height: auto; width: 100%;">
 							</div>
@@ -130,9 +148,19 @@
 								<img src="video.jpg" style="height: auto; width: 100%;">
 							</div>
 						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
+				<!-- Carousel Controls -->
+				<a class="left carousel-control" href="#videoCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#videoCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
+			<!-- Footer -->
             <div class="footer">
                 <div class="footer-object">
                     <div class="footer-content">
