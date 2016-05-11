@@ -1,15 +1,13 @@
-<html lang="en">
 
+<html lang="en">
+<?php include("/home/explodin/public_html/password_protect.php"); ?>
 <head>
 	<link rel="stylesheet" type="text/css" href="../Ember/css/stylesheet.css">	
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>YTGFamily Sub Counter</title>
-
 </head>
 
 <body>
-
-
 
 <div class="container" style="text-align: center; background-color: #424549; padding-bottom: 50px; padding-top: 5px;">
 	<h1 style="font-family: arial; color: white;">YTGFamily Sub Counter</h1>

@@ -57,7 +57,7 @@ $LOGIN_INFORMATION = array(
 define('USE_USERNAME', true);
 
 // User will be redirected to this page after logout
-define('LOGOUT_URL', 'http://www.example.com/');
+define('LOGOUT_URL', 'http://www.explodingember.co.uk');
 
 // time out after NN minutes of inactivity. Set to 0 to not timeout
 define('TIMEOUT_MINUTES', 0);
@@ -107,13 +107,13 @@ function showLoginPasswordProtect($error_msg) {
   </style>
   <div style="width:500px; margin-left:auto; margin-right:auto; text-align:center">
   <form method="post">
-    <h3>Please enter password to access this page</h3>
+    <h3 style="font-family: arial;">Please enter your username and password to enter the site</h3>
     <font color="red"><?php echo $error_msg; ?></font><br />
 <?php if (USE_USERNAME) echo 'Login:<br /><input type="input" name="access_login" /><br />Password:<br />'; ?>
     <input type="password" name="access_password" /><p></p><input type="submit" name="Submit" value="Submit" />
   </form>
   <br />
-  <a style="font-size:9px; color: #B0B0B0; font-family: Verdana, Arial;" href="http://www.zubrag.com/scripts/password-protect.php" title="Download Password Protector">Powered by Password Protect</a>
+  <a style="font-size:9px; color: #B0B0B0; font-family: Verdana, Arial;" href="http://www.youtube.com/explodingember" title="Download Password Protector">Powered by ExplodingEmber</a>
   </div>
 </body>
 </html>
