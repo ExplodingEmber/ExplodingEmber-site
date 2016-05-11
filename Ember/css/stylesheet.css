@@ -95,6 +95,10 @@ p{
 	margin: 0.5%;
 	display: inline-block;
 }
+.box-responsive{
+	height: auto; 
+	width: 100%;
+}
 
 /* HEADERS */
 .dividerContainer{
