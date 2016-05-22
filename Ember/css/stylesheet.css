@@ -75,7 +75,7 @@ p{
 	font-weight: bold;
 }
 .main-video-description p{
-    font-size: 2vw;
+    font-size: 1.75vw;
 	font-family: arial;
 	margin-top: 10px;
 	text-align: center;
@@ -102,62 +102,89 @@ p{
 
 /* HEADERS */
 .dividerContainer{
-	margin-top:15px;
-	margin-bottom:15px;
+	
 }
 
 .dividerContainer h1{
 	font-family: titleFont;
-	font-size: 50px;
+	font-size: 3vw;
 	letter-spacing: 2px;
 	text-align: center;
     color: black;
-}
-
-.unslider:nth-of-type(3) .navigation-left{
-	position: relative;
-	top:-224px;
-}
-.unslider:nth-of-type(3) .navigation-right{
-	position: relative;
-	top:-224px;
-	float:right
-}
-
-.unslider:nth-of-type(5) .navigation-left{
-	position: relative;
-	top: -133px;
-	left:0px;
-}
-.unslider:nth-of-type(5) .navigation-right{
-	position: relative;
-	top: -133px;
-	right:0px;
-	float:right
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .footer{
     width: 100%;
     text-align: center;
+	background-color: black;
+	padding-bottom: 10px;
 }
-.footer-object{
-	width:15%;
-	height:10%;
+.footer-object1{
+	position: absolute;
+	margin-left: 340px;
+	margin-top: 27px;
+	width: 100px;
+	height: 100px;
     display: inline-block;
-    background-color: aqua;
-    margin-bottom: 35px;
-    margin-right: 2%;
+  /*  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
+}
+.footer-object2{
+	position: absolute;
+	margin-left: 468px;
+	margin-top: 27px;
+	width: 100px;
+	height: 100px;
+    display: inline-block;
+  /*  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
+}
+.footer-object3{
+	position: absolute;
+	margin-left: 602px;
+	margin-top: 27px;
+	width: 100px;
+	height: 100px;
+    display: inline-block;
+  /*  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
+	
+}
+.footer-object4{
+	position: absolute;
+	margin-left: 732px;
+	margin-top: 27px;
+	width: 100px;
+	height: 100px;
+    display: inline-block;
+  /*  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
+}
+@media (max-width: 1200px){
+	.footer-object1{
+		position: absolute;
+		left: %;
+		width:15%;
+		height:10%;
+		display: inline-block;
+		background-color: black;
+	}
 }
 .footer-content{
 	width:15%;
 	height:auto;
 	color: red;
 }
-
 .ytg-sub-box{
 	margin-right: 25px;
 	margin-left: 25px;
 	display: inline-block;
 }
-
+.footer-image{
+	height: auto; 
+	width: 100%;
+	display: inline-block;
+}
 
